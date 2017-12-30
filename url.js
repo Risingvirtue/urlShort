@@ -3,7 +3,11 @@ var path = require('path');
 var app = express();
 var port = process.env.PORT || 8080;
 console.log('listening on port ' + port);
-
+var randNum = [];
+for (var i =0; i < 100; i++) {
+	randNum.push(i);
+}
+var links = {};
 // make express look in the public directory for assets (css/js/img)
 app.use(express.static(__dirname + '/public'));
 
