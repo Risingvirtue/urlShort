@@ -11,6 +11,10 @@ var links = {};
 // make express look in the public directory for assets (css/js/img)
 app.use(express.static(__dirname + '/public'));
 
+app.get('/', function(req, res) {
+	res.send(__dirname + '/home.html');
+});
+
 // set the home page route
 app.get('/*', function(req, res) {
 	var l = req.params[0];
