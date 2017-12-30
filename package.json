@@ -1,0 +1,23 @@
+{
+  "name": "urlshort",
+  "version": "1.0.0",
+  "description": "nodeJS project\r shortens URL",
+  "main": "url.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+	"start": "node url.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Risingvirtue/urlShort.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Risingvirtue/urlShort/issues"
+  },
+  "homepage": "https://github.com/Risingvirtue/urlShort#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
